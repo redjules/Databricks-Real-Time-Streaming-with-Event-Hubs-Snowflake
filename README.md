@@ -24,39 +24,39 @@ One example of using Azure Event Hubs and Databricks for real-time data processi
 
 In this project, we will use a Microsoft Sample Dataset capturing the GPS coordinates of the phone with the following fields:
 
-Index - User ID
+- Index - User ID
 
-Arrival_Time - GPS tracker arrival time 
+- Arrival_Time - GPS tracker arrival time 
 
-Creation_Time - GPS tracker captures time
+- Creation_Time - GPS tracker captures time
 
-x - GPS co-ordinate
+- x - GPS co-ordinate
 
-y - GPS co-ordinate
+- y - GPS co-ordinate
 
-z - GPS co-ordinate
+- z - GPS co-ordinate
 
-User - dummy column
+- User - dummy column
 
-Model - Phone Model
+- Model - Phone Model
 
-Device - Phone version
+- Device - Phone version
 
-gt - IOT device location
+- gt - IOT device location
 
-Id -ID of the reading
+- Id -ID of the reading
 
-Geolocation - City, Country of the GPS reading
+- Geolocation - City, Country of the GPS reading
 
  
 
 ## Tech Stack:
 
-Framework: Spark
+-Framework: Spark
 
-Language: Scala, Python
+-Language: Scala, Python
 
-Services: Azure Blob Storage, Azure Databricks, Azure Event Hubs, Snowflake
+-Services: Azure Blob Storage, Azure Databricks, Azure Event Hubs, Snowflake
 
  
 
@@ -76,14 +76,14 @@ Databricks is a cloud platform for large-scale data engineering and collaborativ
 
 Snowflake is a data storage, processing, and analytics platform that blends a unique SQL query engine with a cloud-native architecture. Snowflake delivers all the features of an enterprise analytic database to the user. Snowflake components include:
 
- Warehouse/Virtual Warehouse
- Database and Schema
- Table
- View
- Stored procedure
- Snowpipe
- Stream
- Task
+- Warehouse/Virtual Warehouse
+- Database and Schema
+- Table
+- View
+- Stored procedure
+- Snowpipe
+- Stream
+- Task
  
 
 ## Architecture
